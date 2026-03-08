@@ -1,0 +1,16 @@
+{
+  "name": "hexshot-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "@solana/web3.js": "^1.95.3",
+    "bs58": "^5.0.0"
+  }
+}
